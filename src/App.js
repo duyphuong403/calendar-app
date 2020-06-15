@@ -106,7 +106,6 @@ class App extends Component {
           defaultView="month"
           events={this.state.events}
           style={{ height: "100vh" }}
-          drilldownView="agenda"
           views={{
             month: true,
           }}
