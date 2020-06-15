@@ -18,7 +18,7 @@ class CustomToolbar extends Toolbar {
                     <span className="rbc-btn-group">
                     </span>
                     <span className="rbc-btn-group">
-                        <button type="button" onClick={() => this.navigate('TODAY')} >Today</button>
+                        <button type="button" style={{backgroundColor: "#eaf6ff"}} onClick={() => this.navigate('TODAY')} >Today</button>
                     </span>
                     <span className="rbc-btn-group">
                         <button type="button" onClick={this.navigate.bind(null, navigate.NEXT)}>Next</button>
